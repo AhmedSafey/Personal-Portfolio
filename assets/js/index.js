@@ -129,15 +129,6 @@ prev.addEventListener("click", function(e) {
     }
 });
 
-for (var i = 0; i < dots.length; i++) {
-    dots[i].addEventListener("click", function(e) {
-        startIndex = Number(e.target.getAttribute("data-index"));
-        updateCards();
-    });
-}
-
-
-updateCards();
 
 // setting
  
